@@ -1,6 +1,6 @@
 // package nth Node from the end of the Linked List;
 
-public class LinkedList {
+public class Problem2 {
     public static void main(String[] args) {
         LinkedListImpl linkedListImpl = new LinkedListImpl();
         

@@ -1,7 +1,8 @@
 /**
  * Stack
  */
-public class Stack {
+
+public class Problem1 {
     public static void main(String[] args) {
         LinkedList linkedList = new LinkedList();
         linkedList.push(4);

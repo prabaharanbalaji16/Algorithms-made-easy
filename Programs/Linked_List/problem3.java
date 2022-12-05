@@ -2,7 +2,7 @@ import java.util.Hashtable;
 
 // package Linked List with hash table;
 
-public class LinkedList {
+public class problem3 {
     public static void main(String[] args) {
         LinkedListImpl linkedListImpl = new LinkedListImpl();
         linkedListImpl.push(2);
