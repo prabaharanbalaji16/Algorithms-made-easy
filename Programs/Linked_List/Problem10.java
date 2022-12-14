@@ -29,12 +29,23 @@ public class Problem10 {
         {
             slowPtr = slowPtr.next;
             fastPtr = fastPtr.next.next;
+            System.out.println(slowPtr.item+" "+fastPtr.item);
             if(slowPtr==fastPtr)
             {
                 System.out.println("loop found");
+                slowPtr = head;
+
+                // Problem-12
+                while(slowPtr!=fastPtr)
+                {
+                    slowPtr = slowPtr.next;
+                    fastPtr = fastPtr.next;
+                }
+                System.out.println(slowPtr.item);
                 return;
             }
         }
+        // slowPtr = head;
     }
 }
 class Node{

@@ -14,18 +14,12 @@ public class Problem7{
         l3.next = l4;
         l4.next = null;
 
-        // Problem7 linkedList = new Problem7();
-        // linkedList.detectLoop(head);
 
         Node node = new Node();
         node.detectLoop(head);
     }
     
-    void detectLoop(Node head)
-    {
-        
     }
-}
 
 class Node{
         int item;
