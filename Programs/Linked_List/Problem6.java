@@ -1,4 +1,4 @@
-public class Program6 {
+public class Problem6 {
     public static void main(String[] args) {
         LinkedListRecursive linkedListImpl = new LinkedListRecursive();
 
