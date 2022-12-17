@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 public class Program21 {
     public static void main(String[] args) {
         Node first1 = new Node(1);
@@ -20,12 +22,32 @@ public class Program21 {
         two2.next = intersection;
         
         Program21 Intersection = new Program21();
-        intersection.findIntersection();
+        Intersection.findIntersection(first1, two1);
     }
 
-    void findIntersection()
+    void findIntersection(Node first, Node second)
     {
+        Stack firstStack = new Stack();
 
+        Stack secondStack = new Stack();
+
+        while(first!=null)
+        {
+            firstStack.push(first);
+            first = first.next;
+        }
+
+        while(second!=null)
+        {
+            secondStack.push(second);
+            second = second.next;
+        }
+        Node temp=null;
+        while(firstStack.pop()==secondStack.pop())
+        {
+            temp = (Node) firstStack.pop();
+        }
+        System.out.println("Intersection found "+temp.item);
     }
 }
 class Node{
@@ -39,6 +61,6 @@ class Node{
         this.next = null;
     }
 
-    public void findIntersection() {
+    public void findIntersection(Node first1, Node two1) {
     }
 }
