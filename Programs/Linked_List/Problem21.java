@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class Program21 {
+public class Problem21 {
     public static void main(String[] args) {
         Node first1 = new Node(1);
         Node first2 = new Node(5);
@@ -21,7 +21,7 @@ public class Program21 {
         first3.next = intersection;
         two2.next = intersection;
         
-        Program21 Intersection = new Program21();
+        Problem21 Intersection = new Problem21();
         Intersection.findIntersection(first1, two1);
     }
 
