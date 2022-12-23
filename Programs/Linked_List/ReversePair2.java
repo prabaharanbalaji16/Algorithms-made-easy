@@ -1,4 +1,4 @@
-public class ReversePair {
+public class ReversePair2 {
     public static void main(String[] args) {
         Node first1 = new Node(1);
         Node first2 = new Node(5);
@@ -16,7 +16,7 @@ public class ReversePair {
         Node first8 = new Node(37);
         first7.next = first8;
 
-        ReversePair reversePair = new ReversePair();
+        ReversePair2 reversePair = new ReversePair2();
 
         Node reversed = reversePair.reverse(first1);
 
@@ -27,31 +27,23 @@ public class ReversePair {
         }
     }
 
-    Node reverse(Node head)
-    {
-        Node temp1 = null;
-        Node temp2 = null;
-
-        while(head !=null && head.next !=null)
+    Node reverse(Node head) {
+        Node temp = null;
+        if(head==null)
         {
-            if(temp1!=null)
-            {
-                temp1.next.next = head.next;
-            }
-            temp1 = head.next;
-            head.next = head.next.next;
-            temp1.next = head;
-            if(temp2 == null)
-            {
-                temp2 = temp1;
-            }
-            head = head.next;            
+            return null;
         }
-        return temp2;
-        
+        else
+        {
+            temp = head.next;
+            head.next = temp.next;
+            temp.next = head;
+            head = temp;
+
+            head.next.next = reverse(head.next.next);
+            return head;
+        }
     }
-
-
 }
 class Node{
     int item;
