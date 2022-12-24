@@ -1,0 +1,112 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch SplitCircularList",
+            "request": "launch",
+            "mainClass": "SplitCircularList",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeToList",
+            "request": "launch",
+            "mainClass": "TreeToList",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeforeElement",
+            "request": "launch",
+            "mainClass": "BeforeElement",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch EndOfLinkedList",
+            "request": "launch",
+            "mainClass": "EndOfLinkedList",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenerateBinary",
+            "request": "launch",
+            "mainClass": "GenerateBinary",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem1",
+            "request": "launch",
+            "mainClass": "Problem1",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem11",
+            "request": "launch",
+            "mainClass": "Problem11",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem2",
+            "request": "launch",
+            "mainClass": "Problem2",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem5",
+            "request": "launch",
+            "mainClass": "Problem5",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem6",
+            "request": "launch",
+            "mainClass": "Problem6",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortedArray",
+            "request": "launch",
+            "mainClass": "SortedArray",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringLength",
+            "request": "launch",
+            "mainClass": "StringLength",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch TowerOfHanoi",
+            "request": "launch",
+            "mainClass": "TowerOfHanoi",
+            "projectName": "Programs_4dd7c82"
+        }
+    ]
+}

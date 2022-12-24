@@ -17,15 +17,13 @@ public class TreeToList {
     public static void main(String[] args) {
         TreeToList tree = new TreeToList();
         Nodes root = new Nodes(10);
-        Nodes left = new Nodes(12);
-        root.left = left;
+        root.left = new Nodes(12);
         root.left.left = new Nodes(25);
         root.left.right = new Nodes(30);
         root.right = new Nodes(15);
         root.right.left = new Nodes(36);
 
         tree.convertToList(root);
-
         tree.print(tree.head);
     }
 
