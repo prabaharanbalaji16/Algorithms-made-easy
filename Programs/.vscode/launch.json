@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch JosephusCircle",
+            "request": "launch",
+            "mainClass": "JosephusCircle",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseKNodes",
+            "request": "launch",
+            "mainClass": "ReverseKNodes",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
             "name": "Launch Swapping",
             "request": "launch",
             "mainClass": "Swapping",
