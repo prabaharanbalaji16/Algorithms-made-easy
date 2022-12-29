@@ -20,17 +20,10 @@ public class JosephusCircle{
     
         for(int i = N;i>1;i--)
         {
-            System.out.print(head.item);
-            System.out.print(head.next.item);
-            System.out.print(head.next.next.item);
-            System.out.print(head.next.next.next.item);
-            System.out.print(head.next.next.next.next.item);
             for(int j=0;j<m;j++)
             {
                 head = head.next;
                 head.next = head.next.next;
-                System.out.println();
-                System.out.println("***");
             }
         }
         System.out.println(head.item);

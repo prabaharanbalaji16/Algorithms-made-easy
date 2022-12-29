@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Modular1",
+            "request": "launch",
+            "mainClass": "Modular1",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Modular2",
+            "request": "launch",
+            "mainClass": "Modular2",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Modular",
+            "request": "launch",
+            "mainClass": "Modular",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomList",
+            "request": "launch",
+            "mainClass": "RandomList",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
             "name": "Launch JosephusCircle",
             "request": "launch",
             "mainClass": "JosephusCircle",
