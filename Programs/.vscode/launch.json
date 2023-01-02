@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InfixPostFix",
+            "request": "launch",
+            "mainClass": "Stacks.InfixPostFix",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch SymbolPattern",
+            "request": "launch",
+            "mainClass": "Stacks.SymbolPattern",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Insertion",
+            "request": "launch",
+            "mainClass": "Insertion",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReOrder",
+            "request": "launch",
+            "mainClass": "ReOrder",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Median",
+            "request": "launch",
+            "mainClass": "Median",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fractional",
+            "request": "launch",
+            "mainClass": "Fractional",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
             "name": "Launch Modular1",
             "request": "launch",
             "mainClass": "Modular1",
