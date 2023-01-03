@@ -11,11 +11,12 @@ public class InfixPostFix {
     void convert(String exp)
     {
         Stack<Character> stack = new Stack<Character>();
-        for(int i=0;i<exp.length();i++)
+        String result = new String("");
+        for(int i=0;i<exp.length();++i)
         {
             if(Character.isLetterOrDigit(exp.charAt(i)))
             {
-                System.out.print(exp.charAt(i));
+                result+=exp.charAt(i);
             }
             else if(exp.charAt(i)=='(')
             {
@@ -23,24 +24,39 @@ public class InfixPostFix {
             }
             else if(exp.charAt(i)==')')
             {
-                while(!stack.isEmpty() && stack.peek()!='(')
+                while(!stack.isEmpty() && stack.peek()!='(' )
                 {
-                    System.out.print(stack.pop());
+                    result+=stack.peek();
+                    stack.pop();
                 }
+                stack.pop();
             }
             else
             {
-                while(!stack.isEmpty() && prec(exp.charAt(i))<prec(stack.peek()))
+                while(!stack.isEmpty() && prec(exp.charAt(i))<=prec(stack.peek()))
                 {
-                    System.out.print(stack.pop());
+                    result+=stack.peek();
+                    stack.pop();
                 }
                 stack.push(exp.charAt(i));
             }
+            System.out.println(result);
         }
+
         while(!stack.isEmpty())
         {
-            System.out.print(stack.pop());
+            if(stack.peek() =='(')
+            {
+                // return;
+                stack.pop();
+            }
+            else
+            {
+                result+= stack.peek();
+                stack.pop();
+            }
         }
+        System.out.println(result);
     }
 
     int prec(char c)
