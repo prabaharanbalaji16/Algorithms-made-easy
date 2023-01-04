@@ -9,46 +9,46 @@ public class PostFix{
 
     void eval(String exp)
     {
-        Stack<Character> stack = new Stack<Character>();
-        Character result=null;
+        Stack<Integer> stack = new Stack<Integer>();
+        int result=0;
         for(int i=0;i<exp.length();i++)
         {
             char c = exp.charAt(i);
             
-            if(Character.isLetterOrDigit(c))
+            if(Character.isDigit(c))
             {
-                stack.push(c);
+                stack.push(c-'0');
             }
             else if(c=='*')
             {
-                int num1 = stack.pop();
                 int num2 = stack.pop();
+                int num1 = stack.pop();
 
-                result = (char) (num1*num2);
+                result = (num1*num2);
                 stack.push(result);
             }
             else if(c=='+')
             {
-                int num1 = stack.pop();
                 int num2 = stack.pop();
+                int num1 = stack.pop();
 
-                result = (char) (num1+num2);
+                result = (num1+num2);
                 stack.push(result);
             }
             else if(c=='-')
             {
-                int num1 = stack.pop();
                 int num2 = stack.pop();
+                int num1 = stack.pop();
 
-                result = (char) (num1-num2);
+                result = (num1-num2);
                 stack.push(result);
             }
             else if(c=='/')
             {
-                int num1 = stack.pop();
                 int num2 = stack.pop();
+                int num1 = stack.pop();
 
-                result = (char) (num1/num2);
+                result = (num1/num2);
                 stack.push(result);
             }
         }
