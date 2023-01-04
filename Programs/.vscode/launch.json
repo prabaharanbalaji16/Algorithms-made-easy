@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PostFix",
+            "request": "launch",
+            "mainClass": "PostFix",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
             "name": "Launch InfixPostFix",
             "request": "launch",
             "mainClass": "Stacks.InfixPostFix",
