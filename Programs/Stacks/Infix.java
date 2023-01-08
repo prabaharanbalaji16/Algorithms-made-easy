@@ -4,7 +4,7 @@ import java.util.Stack;
 public class Infix{
     public static void main(String[] args) {
         Infix infix = new Infix();
-        infix.eval("2*(2+12)/7");
+        infix.eval("1 + 2 * 6");
     }
     void eval(String exp)
     {
@@ -14,37 +14,40 @@ public class Infix{
         for(int i=0;i<exp.length();i++)
         {
             char c = exp.charAt(i);
-            if(Character.isDigit(c))
-            {
-                operand.push(Integer.parseInt(Character.toString(c)));
-                System.out.println(operand.peek());
-            }
-            else if(c =='(')
+            if(c== '(')
             {
                 operator.push(c);
             }
-            else if(c=='+' || c=='-'|| c =='*' || c=='/')
+            else if(Character.isDigit(c))
             {
-                System.out.println("In");
-                while(!operator.isEmpty() && prec(c) <= prec(operator.peek()))
-                {
-                    int result = ops(c, operand.pop(), operand.pop());
-                    operand.push(result);
-                }
-                operator.push(c);
-                System.out.println(operator.peek());
+                operand.push(c - '0');
             }
             else if(c==')')
             {
                 while(operator.peek()!='(')
                 {
-                    int result = ops(operator.peek(),operand.pop(),operand.pop());
+                    int result = ops(operator.pop(), operand.pop(), operand.pop());
                     operand.push(result);
-                    operator.pop();
                 }
                 operator.pop();
             }
+            else if(c=='+' || c == '-' || c=='*'||c=='/')
+            {
+                while(operator.size() >0  && prec(c) <= prec(operator.peek()))
+                {
+                    int result = ops(operator.pop(), operand.pop(), operand.pop());
+                    operand.push(result);
+                }
+                operator.push(c);
+            }
+
         }
+
+        while(!operator.isEmpty())
+                {
+                    int result = ops(operator.pop(), operand.pop(), operand.pop());
+                    operand.push(result);
+                }
         System.out.println(operand.pop());
     }
     int prec(char c)
@@ -63,19 +66,19 @@ public class Infix{
         }
         return -1;
     }
-    int ops(char op, int n1, int n2)
+    int ops(char op, int a, int b)
     {
         switch(op)
         {
             case '+':
-                return n1+n2;
+                return b+a;
             case '-':
-            return n1-n2;
+            return b-a;
             case '*':
-                return n1*n2;
+                return b*a;
             case '/':
-            return n1/n2;
+            return b/a;
         }
-        return -1;
+        return 0;
     }
 }

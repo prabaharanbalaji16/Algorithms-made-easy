@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch GetMin2",
+            "request": "launch",
+            "mainClass": "Stacks.GetMin2",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch GetMax",
+            "request": "launch",
+            "mainClass": "Stacks.GetMax",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
             "name": "Launch Infix",
             "request": "launch",
             "mainClass": "Stacks.Infix",
