@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch OneStack",
+            "request": "launch",
+            "mainClass": "Stacks.OneStack",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch OneQueue",
+            "request": "launch",
+            "mainClass": "Stacks.OneQueue",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
             "name": "Launch Reversal",
             "request": "launch",
             "mainClass": "Stacks.Reversal",
