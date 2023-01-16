@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LinkedList",
+            "request": "launch",
+            "mainClass": "Stacks.LinkedList",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Order",
+            "request": "launch",
+            "mainClass": "Stacks.Order",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch OneArray2",
+            "request": "launch",
+            "mainClass": "Stacks.OneArray2",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch OneArray",
+            "request": "launch",
+            "mainClass": "Stacks.OneArray",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
             "name": "Launch OneStack",
             "request": "launch",
             "mainClass": "Stacks.OneStack",
