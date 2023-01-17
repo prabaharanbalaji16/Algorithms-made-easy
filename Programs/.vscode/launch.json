@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Spans2",
+            "request": "launch",
+            "mainClass": "Stacks.Spans2",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Spans",
+            "request": "launch",
+            "mainClass": "Stacks.Spans",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringProcessing",
+            "request": "launch",
+            "mainClass": "Stacks.StringProcessing",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
             "name": "Launch LinkedList",
             "request": "launch",
             "mainClass": "Stacks.LinkedList",
