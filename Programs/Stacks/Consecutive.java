@@ -19,10 +19,7 @@ public class Consecutive {
         consecutive.pair(stack);
     }
     void pair(Stack<Integer> stack)
-    {
-        int i=0;
-       
-
+    {   
         if((stack.size())%2!=0)
         {
            stack.pop();

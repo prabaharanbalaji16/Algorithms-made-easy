@@ -2,12 +2,14 @@ package Stacks;
 
 import java.util.Stack;
 
+@SuppressWarnings("Unchedked")
 public class AdjacentDuplicate {
     public static void main(String[] args) {
         AdjacentDuplicate duplicate = new AdjacentDuplicate();
         int[] arr = {1,5,6,8,8,8,0,1,1,0,6,5};
         int arr2[] = {1,9,6,8,8,8,0,1,1,0,6,5};
         duplicate.find(arr2);
+        duplicate.find(arr);
     }
 
     void find(int[] arr)
