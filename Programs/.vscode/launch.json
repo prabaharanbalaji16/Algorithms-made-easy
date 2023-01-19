@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StackSets",
+            "request": "launch",
+            "mainClass": "Stacks.StackSets",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch AdjacentDuplicate",
+            "request": "launch",
+            "mainClass": "Stacks.AdjacentDuplicate",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
             "name": "Launch Consecutive",
             "request": "launch",
             "mainClass": "Stacks.Consecutive",

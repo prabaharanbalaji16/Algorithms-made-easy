@@ -21,12 +21,16 @@ public class Consecutive {
     void pair(Stack<Integer> stack)
     {
         int i=0;
-        
+       
+
+        if((stack.size())%2!=0)
+        {
+           stack.pop();
+        }
+        // System.out.println(stack.size());
         while(!stack.isEmpty())
         {
             int temp = stack.pop();
-            System.out.println(temp);
-            System.out.println(stack.peek());
             if(stack.peek()-temp==1 || stack.peek()-temp==-1)
             {
                 
