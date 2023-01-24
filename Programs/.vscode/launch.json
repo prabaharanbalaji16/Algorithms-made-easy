@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Consecutive",
+            "request": "launch",
+            "mainClass": "Queues.Consecutive",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueToStack",
+            "request": "launch",
+            "mainClass": "Queues.QueueToStack",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch SlidingWindow",
+            "request": "launch",
+            "mainClass": "Queues.SlidingWindow",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoQueue",
+            "request": "launch",
+            "mainClass": "Queues.TwoQueue",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoStacks",
+            "request": "launch",
+            "mainClass": "Queues.TwoStacks",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Reverse",
+            "request": "launch",
+            "mainClass": "Queues.Reverse",
+            "projectName": "Programs_4dd7c82"
+        },
+        {
+            "type": "java",
             "name": "Launch StackSets",
             "request": "launch",
             "mainClass": "Stacks.StackSets",
