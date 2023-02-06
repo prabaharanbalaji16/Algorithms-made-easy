@@ -8,7 +8,6 @@ public class TwoStacks{
 
     public static void main(String[] args) {
         TwoStacks queue = new TwoStacks();
-
         queue.enQueue(10);
         queue.enQueue(4);
         queue.enQueue(7);
