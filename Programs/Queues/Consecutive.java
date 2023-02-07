@@ -1,8 +1,6 @@
 package Queues;
 
-import java.util.Queue;
 import java.util.Stack;
-import java.util.concurrent.LinkedBlockingDeque;
 
 public class Consecutive {
     public static void main(String[] args) {
@@ -23,7 +21,6 @@ public class Consecutive {
 
     void find(Stack<Integer> stack)
     {
-        Queue<Integer> queue = new LinkedBlockingDeque<Integer>();
         if(stack.size()%2!=0)
         {
         stack.pop();

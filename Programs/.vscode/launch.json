@@ -9,6 +9,27 @@
             "name": "Launch Consecutive",
             "request": "launch",
             "mainClass": "Queues.Consecutive",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterLeavingQueue",
+            "request": "launch",
+            "mainClass": "Queues.InterLeavingQueue",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseK",
+            "request": "launch",
+            "mainClass": "Queues.ReverseK",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Consecutive",
+            "request": "launch",
+            "mainClass": "Queues.Consecutive",
             "projectName": "Programs_4dd7c82"
         },
         {

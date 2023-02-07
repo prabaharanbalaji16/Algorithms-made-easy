@@ -23,7 +23,6 @@ public class Insertion {
 
     Node sort(Node head)
     {
-        Node dummy = new Node(10000);
         Node temp = head;
         
         while(temp!=null)
