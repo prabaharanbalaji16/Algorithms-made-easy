@@ -25,7 +25,6 @@ public class Consecutive {
         {
         stack.pop();
         }
-        
         while(!stack.isEmpty())
         {
            int temp = stack.pop();

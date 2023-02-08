@@ -9,7 +9,6 @@ public class TwoQueue {
 
     public static void main(String[] args) {
         TwoQueue stack = new TwoQueue();
-
         stack.push(10);
         stack.push(6);
         stack.push(7);

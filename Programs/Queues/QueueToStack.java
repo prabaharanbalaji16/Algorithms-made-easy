@@ -14,7 +14,6 @@ public class QueueToStack {
         queue.add(3);
         queue.add(4);
         queue.add(5);
-
         qs.find(queue);
     }
 
