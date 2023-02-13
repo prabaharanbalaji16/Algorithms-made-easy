@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MaximumElemet",
+            "request": "launch",
+            "mainClass": "Trees.MaximumElemet",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
             "name": "Launch Consecutive",
             "request": "launch",
             "mainClass": "Queues.Consecutive",
