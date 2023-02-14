@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Inserting",
+            "request": "launch",
+            "mainClass": "Trees.Inserting",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Searching2",
+            "request": "launch",
+            "mainClass": "Trees.Searching2",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Searching",
+            "request": "launch",
+            "mainClass": "Trees.Searching",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumElement2",
+            "request": "launch",
+            "mainClass": "Trees.MaximumElement2",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
             "name": "Launch MaximumElemet",
             "request": "launch",
             "mainClass": "Trees.MaximumElemet",
