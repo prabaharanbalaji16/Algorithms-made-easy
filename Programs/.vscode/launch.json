@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HeightOfTree",
+            "request": "launch",
+            "mainClass": "Trees.HeightOfTree",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseOrder",
+            "request": "launch",
+            "mainClass": "Trees.ReverseOrder",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Deleting",
+            "request": "launch",
+            "mainClass": "Trees.Deleting",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch SizeofTree2",
+            "request": "launch",
+            "mainClass": "Trees.SizeofTree2",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch SizeofTree",
+            "request": "launch",
+            "mainClass": "Trees.SizeofTree",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
             "name": "Launch Inserting",
             "request": "launch",
             "mainClass": "Trees.Inserting",
