@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Deleting2",
+            "request": "launch",
+            "mainClass": "Trees.Deleting2",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeepestNode",
+            "request": "launch",
+            "mainClass": "Trees.DeepestNode",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeightOfTree2",
+            "request": "launch",
+            "mainClass": "Trees.HeightOfTree2",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
             "name": "Launch HeightOfTree",
             "request": "launch",
             "mainClass": "Trees.HeightOfTree",
