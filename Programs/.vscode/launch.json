@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Diameter",
+            "request": "launch",
+            "mainClass": "Trees.Diameter",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch HalfNodes",
+            "request": "launch",
+            "mainClass": "Trees.HalfNodes",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch FullNodes",
+            "request": "launch",
+            "mainClass": "Trees.FullNodes",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
             "name": "Launch Deleting2",
             "request": "launch",
             "mainClass": "Trees.Deleting2",
