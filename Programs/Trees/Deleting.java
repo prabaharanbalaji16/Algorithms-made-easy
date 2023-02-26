@@ -9,7 +9,6 @@ public class Deleting {
         root.left.right = new Node(4);
         root.right.left = new Node(1);
         root.right.right = new Node(6);
-
         Deleting deleting = new Deleting();
         deleting.delete( root);
         System.out.println("Tree deleted");
