@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PrintPath",
+            "request": "launch",
+            "mainClass": "Trees.PrintPath",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumSum",
+            "request": "launch",
+            "mainClass": "Trees.MaximumSum",
+            "projectName": "Programs_bed3ef6d"
+        },
+        {
+            "type": "java",
             "name": "Launch Diameter",
             "request": "launch",
             "mainClass": "Trees.Diameter",
